@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Covid19Tracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/corona_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/corona_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Covid19Tracker">
+        <activity android:name="com.example.Covid19Tracker.HomePage" />
+        <activity android:name="com.example.Covid19Tracker.Statistics" />
+        <activity android:name="com.example.Covid19Tracker.Symptoms" />
+        <activity android:name="com.example.Covid19Tracker.StatisticsWorld" />
+        <activity android:name="com.example.Covid19Tracker.StateWise" />
+        <activity android:name="com.example.Covid19Tracker.StateData" />
+        <activity android:name="com.example.Covid19Tracker.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

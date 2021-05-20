@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewsymp"
+        android:layout_width="405dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="Covid-19 Symptoms"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="336dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="High Fever"
+            android:textAlignment="center"
+            android:textColor="#00b08e"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="194dp"
+            android:layout_marginLeft="39dp"
+            android:gravity="fill"
+            android:paddingTop="35dp"
+            android:text="If you have a fever of 100.4°F (38°C) or above, you should stay at home and get medical advice"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHighlight="#0000FF"
+            android:textSize="12sp"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="160dp"
+            android:layout_height="208dp"
+            android:layout_marginTop="246dp"
+            android:background="@drawable/touch_effect" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="332dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="Dry Cough"
+            android:textAlignment="center"
+            android:textColor="#00b08e"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="39dp"
+            android:gravity="center_vertical"
+            android:paddingTop="35dp"
+            android:text="Dry Cough follwed by shortness of breath or difficulty breathing or fever should be concerning"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:layout_width="162dp"
+            android:layout_height="201dp"
+            android:background="@drawable/touch_effect" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="Headache"
+            android:textAlignment="center"
+            android:textColor="#00b08e"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="39dp"
+            android:gravity="center_vertical"
+            android:paddingTop="35dp"
+            android:text="Headache as a complaint should not be ignored especially any new-onset headache"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            tools:ignore="RtlCompat" />
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="162dp"
+        android:layout_height="207dp"
+        android:background="@drawable/touch_effect"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView6"
+        app:layout_constraintEnd_toEndOf="@+id/cardView6"
+        app:layout_constraintStart_toStartOf="@+id/cardView6"
+        app:layout_constraintTop_toTopOf="@+id/cardView6" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="Chills"
+            android:textAlignment="center"
+            android:textColor="#00b08e"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="39dp"
+            android:gravity="center_vertical"
+            android:paddingTop="35dp"
+            android:text="Chills with repeated shaking and loss of taste or smell and an overall lack of energy"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            tools:ignore="RtlCompat" />
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="162dp"
+        android:layout_height="206dp"
+        android:background="@drawable/touch_effect"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView7"
+        app:layout_constraintEnd_toEndOf="@+id/cardView7"
+        app:layout_constraintStart_toStartOf="@+id/cardView7"
+        app:layout_constraintTop_toTopOf="@+id/cardView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
